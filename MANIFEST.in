@@ -1,0 +1,2 @@
+include README.rst
+recursive-include ckanext/clamdscanner *.html *.json *.js *.less *.css

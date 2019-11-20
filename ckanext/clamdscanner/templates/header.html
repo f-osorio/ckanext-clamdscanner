@@ -1,0 +1,7 @@
+{% ckan_extends %}
+
+
+{% block header_account %}
+    {% resource 'scanner/override_submissions.js' %}
+    {{ super() }}
+{% endblock %}
